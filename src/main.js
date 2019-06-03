@@ -1,7 +1,7 @@
 function daysInYear(year) {
   try {
       if (!Number.isInteger(year)) {
-          throw new Error("Incorrect");
+        throw new Error("Incorrect");
       }
 
       const firstDay = new Date(year, 0, 1);
